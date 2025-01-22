@@ -1,5 +1,5 @@
 site_name: 'United Security Providers Documentations'
-docs_dir: './docs'                        # Where to find the English markdown files
+docs_dir: './src/docs'                        # Where to find the English markdown files
 site_dir: './generated'                   # Where to put the English HTML files
 site_url: 'https://docs.united-security-providers.ch/'
 copyright: '&copy; 2025 United Security Providers AG. All Rights Reserved.'
