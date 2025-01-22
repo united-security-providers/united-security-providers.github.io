@@ -1,0 +1,30 @@
+site_name: 'United Security Providers Documentations'
+docs_dir: './docs'                        # Where to find the English markdown files
+site_dir: './generated'                   # Where to put the English HTML files
+site_url: 'https://docs.united-security-providers.ch/'
+copyright: '&copy; 2025 United Security Providers AG. All Rights Reserved.'
+
+theme:
+  name: material
+  custom_dir: './overrides/'                  # This is where the customization of the theme lives
+  logo: assets/images/USP-zentriert-white-30-Jahre.png                 # The logo is shared by all languages
+  favicon: favicon.ico              # The favicon is shared by all languages
+  language: en                                    # The build's language
+  static_templates:
+    - 404.html   # 404 page
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/united-security-providers/
+      name: United Security Providers on Linkedin
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@United-security-providersCh
+      name: United Security Providers on Youtube
+
+plugins:
+  - search:
+      enabled: false
+  - privacy
