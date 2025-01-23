@@ -1,6 +1,6 @@
-# United Security Providers Documentations 
+# United Security Providers Documentation 
 
-Welcome to the United Security Providers Documentations page. This repository contains the scripts and content to provide
+Welcome to the United Security Providers Documentation page. This repository contains the scripts and content to provide
 the documentation overview site:
 
 * https://docs.united-security-providers.ch/
